@@ -88,7 +88,8 @@ const handleSubmit = async (e) => {
 
 
   // fetch data from the server
-  const response = await fetch('https://raivis-gereiss.onrender.com/', {
+  // ('http://localhost:5005' to run locally
+  const response = await fetch('https://codex2-bpic.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
