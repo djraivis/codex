@@ -88,7 +88,7 @@ const handleSubmit = async (e) => {
 
 
   // fetch data from the server
-  const response = await fetch('http://localhost:5005', {
+  const response = await fetch('https://raivis-gereiss.onrender.com', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
@@ -110,8 +110,6 @@ const handleSubmit = async (e) => {
     messageDiv.innerHTML = "Something went wrong";
     alert(err);
   }
-
-
 };
 
 form.addEventListener('submit', handleSubmit);
