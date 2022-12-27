@@ -89,7 +89,7 @@ const handleSubmit = async (e) => {
 
   // fetch data from the server
   // ('http://localhost:5005' to run locally
-  const response = await fetch('https://codex2-bpic.onrender.com', {
+  const response = await fetch('https://codex2-bpic.onrender.com/', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
